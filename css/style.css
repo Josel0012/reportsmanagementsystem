@@ -1,0 +1,422 @@
+/* login style start */
+
+@import url("https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
+#login-page .login-page {
+    background-image: url("../img/bg.jpg");
+    background-color: #cccccc;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    filter: blur(0px);
+    -webkit-filter: blur(8px);
+}
+
+.filter {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background: #17bebb;
+    opacity: 0.2;
+}
+
+#login-page .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-height: 227px;
+    background: #2b485a;
+    padding: 10px;
+    color: #cccccc;
+    font-size: 17px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+#login-page .container {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 227px);
+    left: 50%;
+    top: 0;
+    margin: 0;
+    transform: translate(-50%, 0);
+    padding: 10px;
+    /* background: #2b485a; */
+    border-radius: 34px;
+    z-index: 2;
+}
+
+#login-page .container-fluid {
+    background: #2b485a;
+    border-radius: 34px;
+    max-width: 374px;
+    height: 533px;
+    box-shadow: 0px 0px 6px 5px rgba(0, 0, 0, 0.25);
+    z-index: 2;
+}
+
+#login-page form {
+    width: 100%;
+    padding: 10px;
+}
+
+#login-page form img {
+    width: auto;
+    max-height: 150px;
+}
+
+#login-page .form-control {
+    border-radius: 50px;
+    border-color: #17bebb;
+}
+
+#login-page .form-group i {
+    position: relative;
+    font-size: 17px;
+    bottom: -33px;
+    left: 12px;
+    color: #279285;
+}
+
+#login-page .form-group input {
+    padding-left: 35px;
+}
+
+#login-page button.btn {
+    height: 37px;
+    width: 136px;
+    background: #34b7a7;
+    color: white;
+    border-radius: 50px;
+    float: right;
+}
+
+@media (max-width: 768px) {
+    #login-page .footer {
+        font-size: 13px;
+        visibility: hidden;
+    }
+    #login-page .container {
+        height: calc(100vh);
+    }
+    #login-page .row .col-md-6 {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* dashboard_tab_style */
+
+.card-box {
+    position: relative;
+    color: #fff;
+    padding: 20px 10px 40px;
+    margin: 20px 0px;
+}
+
+.card-box:hover {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+.card-box:hover .icon i {
+    font-size: 100px;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+
+.card-box .inner {
+    padding: 5px 10px 0 10px;
+}
+
+.card-box h3 {
+    font-size: 27px;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+    white-space: nowrap;
+    padding: 0;
+    text-align: left;
+}
+
+.card-box p {
+    font-size: 15px;
+}
+
+.card-box .icon {
+    position: absolute;
+    top: auto;
+    bottom: 5px;
+    right: 5px;
+    z-index: 0;
+    font-size: 72px;
+    color: rgba(0, 0, 0, 0.15);
+}
+
+.card-box .card-box-footer {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    padding: 3px 0;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-decoration: none;
+}
+
+.card-box:hover .card-box-footer {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.bg-blue {
+    background-color: #00c0ef !important;
+}
+
+.bg-green {
+    background-color: #00a65a !important;
+}
+
+.bg-orange {
+    background-color: #f39c12 !important;
+}
+
+.bg-red {
+    background-color: #d9534f !important;
+}
+
+
+/* user_tab style */
+
+
+/* .table thead th {
+    background: #aaa;
+    background: #343a40;
+    font-size: 17px;
+} */
+
+.sort_search {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.user_table {
+    background: white;
+    padding: 40px 20px;
+    -moz-box-shadow: 0 0 5px #999;
+    -webkit-box-shadow: 0 0 5px #999;
+    box-shadow: 0 0 5px #999;
+}
+
+.container-fluid .viewdata {
+    padding: 10px;
+    background: white;
+}
+
+#user_type {
+    width: 100%;
+    height: 40px;
+}
+
+#register_output {
+    color: red;
+    text-align: center;
+}
+
+.modal-title {
+    text-align: center;
+}
+
+.modal-open {
+    overflow: hidden;
+    overflow-y: scroll;
+    padding-right: 0 !important;
+}
+
+
+/* .dataTables_scrollHeadInner,
+.table {
+    width: 100% !important;
+} */
+
+.btn-delete {
+    color: rgb(255, 255, 255);
+    border-color: red;
+}
+
+.btn-edit {
+    color: #ffffff;
+    border-color: #0275d8;
+}
+
+.edit-pass {
+    color: #ffffff;
+    border-color: #0275d8;
+    margin-right: 5px;
+}
+
+.no-wrap {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+/* .table thead th {
+    background: #aaa;
+    font-size: 17px;
+} */
+
+.sort_search {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.dataTables_scrollHeadInner,
+.table {
+    width: 100% !important;
+}
+
+.user_table {
+    background: white;
+    padding: 40px 20px;
+    -moz-box-shadow: 0 0 5px #999;
+    -webkit-box-shadow: 0 0 5px #999;
+    box-shadow: 0 0 5px #999;
+}
+
+.navigate {
+    -moz-box-shadow: 0 0 5px #999;
+    -webkit-box-shadow: 0 0 5px #999;
+    box-shadow: 0 0 5px #999;
+    margin-left: 0.5px;
+    margin-right: 0.5px;
+}
+
+#message {
+    color: red;
+    text-align: center;
+}
+
+
+/* 
+.card {
+    color: black;
+    text-decoration: none;
+} */
+
+
+/* .card:hover {
+    text-decoration: none;
+    background-color: #eae5bb;
+    color: black;
+} */
+
+.modal-open {
+    overflow: hidden;
+    overflow-y: scroll;
+    padding-right: 0 !important;
+}
+
+div a.card.active {
+    color: #fff !important;
+    border-color: #5cb85c;
+    background: #52a9f5;
+    outline: none;
+}
+
+.row .card {
+    width: 50%;
+    border-radius: 0px;
+}
+
+#delete {
+    color: rgb(255, 255, 255);
+    border-color: red;
+}
+
+#download {
+    color: rgb(255, 255, 255);
+    border-color: green;
+}
+
+#share {
+    color: rgb(255, 255, 255);
+}
+
+.no-wrap {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+/* semester style */
+
+.form-sem {
+    background: white;
+}
+
+.btn-light {
+    border-color: gray;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#btn-add-sem,
+.btn-archive {
+    overflow: hidden;
+    white-space: nowrap;
+    color: white;
+}
+
+
+/* .dataTables_scrollHeadInner,
+.table {
+    width: 100% !important;
+} */
+
+
+/* archive styles________________________________________ */
+
+.btn-archive-out {
+    color: rgb(124, 6, 6);
+}
+
+.btn-view-files {
+    color: rgb(255, 255, 255);
+}
+
+
+/* docu style ______________________________________ */
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: rgb(192, 222, 255);
+}
+
+.table thead th {
+    /* background: #aaa; */
+    background: #5a696d;
+    /* background: #329252; */
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    border-top: 0px;
+    border-color: black;
+}
+
+.table tfoot th {
+    /* background: #aaa; */
+    background: #5a696d;
+    /* background: #329252; */
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    border-bottom: 0px;
+    border-color: black;
+}
+
+.hr {
+    color: rgb(191, 217, 242);
+}

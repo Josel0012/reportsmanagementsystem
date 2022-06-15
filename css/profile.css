@@ -1,0 +1,100 @@
+.form-control:focus {
+    box-shadow: none;
+    border-color: #ba68c8;
+}
+
+.profile-button {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none;
+}
+
+.profile-button:hover {
+    background: #682773;
+}
+
+.profile-button:focus {
+    background: #682773;
+    box-shadow: none;
+}
+
+.profile-button:active {
+    background: #682773;
+    box-shadow: none;
+}
+
+.back:hover {
+    color: #682773;
+    cursor: pointer;
+}
+
+.labels {
+    font-size: 11px;
+}
+
+.add-experience:hover {
+    background: #ba68c8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #ba68c8;
+}
+
+.btn-edituser,
+.btn-email-users,
+.btn-email-credentials {
+    border: none;
+    font-size: 13px;
+    border-radius: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.btn-email-users {
+    background: #33b5e5;
+}
+
+.email-display,
+.address-display {
+    word-break: break-all;
+}
+
+.user-home {
+    border-radius: 2px;
+    padding: 4px;
+    -moz-box-shadow: 0 0 5px #999;
+    /* background-color: white; */
+    -webkit-box-shadow: 0 0 5px #999;
+    box-shadow: 0 0 5px #999;
+    padding-left: 10px;
+}
+
+.user-home a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #33b5e5;
+}
+
+.user-home a:hover {
+    color: #999;
+    text-decoration: none;
+}
+
+.table thead th {
+    /* background: #aaa; */
+    background: transparent;
+    /* background: #329252; */
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    border-top: 5px;
+    border-color: black;
+}
+
+.table tfoot th {
+    /* background: #aaa; */
+    background: transparent;
+    /* background: #329252; */
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    border-bottom: 5px;
+    border-color: black;
+}
